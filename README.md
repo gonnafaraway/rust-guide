@@ -9,12 +9,12 @@ Just Rust.
 
 > **Important**: This style guide is based on official Rust recommendations and is designed for ease of use.
 
-### 🎯 Purpose of Formatting
+### Purpose of Formatting
 - **Time Saving** — automation through `rustfmt`
 - **Consistency** — reduced cognitive load when reading code
 - **Standardization** — minimized style debates in teams
 
-## 🛠 Using rustfmt
+## Using rustfmt
 ```bash
 # Check formatting
 rustfmt --check src/main.rs
@@ -22,7 +22,11 @@ rustfmt --check src/main.rs
 # Auto-format
 rustfmt src/main.rs
 ```
-### 🌐 Online (Rust Playground)
+### Online (Rust Playground)
+* https://play.rust-lang.org
+
+### Casing
+* snake_case_only
 
 ### 💬 Comments
 * Single-line Comments
@@ -51,9 +55,9 @@ Comment Rules
 
 - No trailing spaces — // comment not // comment_
 
-### 🔡 Indentation Style
+### Indentation Style
 
-### 📦 Block Indent (Recommended)
+## Block Indent (Recommended)
 ```rust
 // ✅ Block indent
 a_function_call(
@@ -70,7 +74,7 @@ Advantages:
 - Fewer edits during refactoring
 - Less rightward drift
 
-### ✅ Trailing Commas
+## ✅ Trailing Commas
 ```rust
 // ✅ With trailing comma
 let array = [
@@ -90,7 +94,7 @@ Why This Matters:
 - Smaller diff when changing
 - Consistent style
 
-### ⏸ Empty Lines
+## ⏸ Empty Lines
 ```rust
 fn foo() {
     let x = ...;
@@ -105,7 +109,7 @@ fn baz() {}
 ```
 ### 🎨 Visual Cheat Sheet
 
-🏗 File Structure
+## 🏗 File Structure
 ```rust
 // 1. Modules and imports
 use std::collections::HashMap;
