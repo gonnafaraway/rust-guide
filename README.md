@@ -43,7 +43,7 @@ fn main() {}
  * with line breaks
  */
 ```
-* Comment Rules
+Comment Rules
 
 - Complete sentences — start with capital letter, end with period
 
