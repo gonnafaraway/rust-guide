@@ -45,11 +45,11 @@ fn main() {}
 ```
 * Comment Rules
 
-🔤 Complete sentences — start with capital letter, end with period
+- Complete sentences — start with capital letter, end with period
 
-📏 Length — max 80 characters or line width (whichever is smaller)
+- Length — max 80 characters or line width (whichever is smaller)
 
-🚫 No trailing spaces — // comment not // comment_
+- No trailing spaces — // comment not // comment_
 
 ### 🔡 Indentation Style
 
@@ -136,7 +136,6 @@ fn main() {
 }
 ```
 ### 📚 Sources
-## 📚 Sources
 🔗 Primary Materials
 * [Official Rust Style Guide](https://github.com/rust-lang/rfcs/blob/master/style-guide/README.md)
 * [rustfmt Documentation](https://github.com/rust-lang/rustfmt)
