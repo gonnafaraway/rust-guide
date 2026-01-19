@@ -28,6 +28,10 @@ rustfmt src/main.rs
 ### Casing
 * snake_case_only
 
+### Packages
+<img width="1495" height="413" alt="image" src="https://github.com/user-attachments/assets/6b085705-6aef-4b36-9d64-01a96880b0c9" />
+
+
 ### 💬 Comments
 * Single-line Comments
 ```rust
